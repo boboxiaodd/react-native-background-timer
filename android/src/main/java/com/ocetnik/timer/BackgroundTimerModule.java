@@ -94,4 +94,17 @@ public class BackgroundTimerModule extends ReactContextBaseJavaModule {
         // todo one day..
         // not really neccessary to have
     }*/
+
+     @SuppressWarnings("unused")
+    @ReactMethod
+    public void addListener(String eventName) {
+        // Keep: Required for RN built in Event Emitter Calls.
+    }
+
+    @SuppressWarnings("unused")
+    @ReactMethod
+    public void removeListeners(Integer count) {
+        // Keep: Required for RN built in Event Emitter Calls.
+    }
+    
 }
